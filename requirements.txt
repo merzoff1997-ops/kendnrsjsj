@@ -1,0 +1,25 @@
+# MerAi & Monitoring - Dependencies
+# Обновлено: Март 2026
+
+# Bot режим (официальный Telegram Bot API)
+aiogram==3.4.1
+
+# UserBot режим (Telegram MTProto)
+pyrogram==2.0.106
+tgcrypto==1.2.5
+
+# Веб-запросы и AI
+aiohttp==3.9.3
+aiofiles==23.2.1
+
+# Конфигурация
+python-dotenv==1.0.1
+
+# Утилиты
+python-dateutil==2.8.2
+pytz==2024.1
+
+# Опционально для расширенных функций
+# pillow==10.2.0  # Обработка изображений
+# opencv-python==4.9.0  # Видео
+# pydub==0.25.1  # Аудио
